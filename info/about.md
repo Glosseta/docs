@@ -1,3 +1,5 @@
+# The Glosseta Foundation
+
 The [Glosseta Foundation](https://www.glosseta.foundation) is a not-for-profit organization whose mission is to push forward accessible, decentralized, open and easily digestible Web3 content at a global scale to the everyday person.  Too much of today's Web3 educational content and documentation is geared towards a more technical audience and in most cases, doesn't make sense to the average person looking to learn the basics.  Furthermore, many prominent protocols and dApps have a hard time communicating their product to a non-technical audience. This is where the Glosseta Foundation is looking to make its mark with the help of the entire Web3 community.
 
 **The problem with todays web3** 
