@@ -10,19 +10,22 @@ From a milestone/MVP perspective, the following is proposed (subject to change):
 
 Creating the common, decentralized factual data API that will house future educational content (i.e. knowledge modules)
 
-- Build out common contract definition for clients to interact with API
-- Create API to manage and read content
+- Build out GraphQL schema for clients to interact with API
+- Introduce chain-agnostic means to manage and read content (limiting scope to text and video for this phase)
+- Create API to manage and read content (Arweave, Filecoin, Livepeer)
 - Use this API to power the existing Glosseta platforms glossary terms as a POC
 - Introduce api keys as a means of beta testing the api  (potentially as NFT's with metadata stored on nft.storage/pinata)
 
 ### KPIs
 - 100% of content on Glosseta flows through the common factual api
+- Glosseta-API beta tested by at least 10 unique clients
 
 ## MVP 1
 
 Begin building protocol (Glosseta Protocol) to introduce a content moderation/reputation system
   - Create smart contracts for moderation (groups of moderators called a `pod`) and reputation
   - Create subgraph to index reputation scores
+  - Develop tokenomics
   - Create UI for:
     - Users to upload content (only text and video to start)
     - Content tagging system
@@ -41,7 +44,7 @@ Begin building protocol (Glosseta Protocol) to introduce a content moderation/re
 ## MVP 2
 Begin integration of previous MVP's into Glosseta to pivot it to a broader, accessible web3 educational platform
 
-  - Enable new educational content to surface on Glosseta or a sub-domain
+  - Begin broader integration of previous MVPs into Glosseta to pivot it to a broader, accessible web3 educational platform: Enable new educational content to surface on Glosseta or a sub-domain
   - Add ability to add comments underneath content via lensProtocol (social aspect)
 
   ### KPI's:
